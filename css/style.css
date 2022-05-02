@@ -34,8 +34,12 @@ h1{
 
 .icon-all .box{
     padding: 1em 2em;
-    font-size: 2em;
+    font-size: 1.5em;
     border: 1px solid #7fe8ff;
     margin: .5em;
     border-radius: 15px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
 }
