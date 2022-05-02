@@ -4,3 +4,38 @@
     padding: 0;
     box-sizing: border-box;
 }
+
+/* HEADER */
+h1{
+    color: #7fe8ff;
+    padding: 1em;
+}
+
+/* MAIN */
+.type-icon{
+    color: white;
+    background-color: #7fe8ff;
+    display: flex;
+    justify-content: center;
+    padding: 2em;
+}
+
+.type-icon label{
+    font-size: 1.5em;
+    margin-right: 1em;
+}
+
+.icon-all{
+    width: 95%;
+    margin: 0 auto;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.icon-all .box{
+    padding: 1em 2em;
+    font-size: 2em;
+    border: 1px solid #7fe8ff;
+    margin: .5em;
+    border-radius: 15px;
+}
