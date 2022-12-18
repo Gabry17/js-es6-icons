@@ -116,7 +116,7 @@ const arrayAll = [
 ];
 
 //a seconda del valore selezionato mi ritorna un array per ogni tipo
-document.querySelector('select').addEventListener('click',function(){
+document.querySelector('select').addEventListener('change',function(){
     const inputValue = document.querySelector('select').value;
     
     const all = arrayAll.filter((element)=>{
@@ -132,9 +132,9 @@ document.querySelector('select').addEventListener('click',function(){
     });
 
     //ciclo for each per prendere elemento
-    const sectionIcon = document.querySelector('.icon-all');
-    sectionIcon.innerHTML = '';
-
+	const sectionIcon = document.querySelector('.icon-all');
+	sectionIcon.innerHTML = '';
+    
     all.forEach( (element) => {
          //inserire icona e nome nell html e aggiungere la classe box
          sectionIcon.innerHTML += `
